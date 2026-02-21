@@ -18,7 +18,8 @@ Launch Teleop Key: **ros2 run turtlesim turtle_teleop_key**
 I used the keyboard arrows and orientation keys (E, B, V, C) to manually navigate the turtle.
 By precisely controlling the rotation and forward movement,**I successfully drew a Rhombus (Diamond) shape**.
 AND I created STAR by Service Calls for higher precision
-Customizing the Pen: I changed the pen color to Gold using the set_pen service:
+**I changed the pen color to Gold using the set_pen service:**
+
 **ros2 service call /turtle1/set_pen turtlesim/srv/SetPen "{r: 255, g: 215, b: 0, width: 5, 'off': 0}"**
 
 **source**
